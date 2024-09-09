@@ -5,10 +5,10 @@ This is a free API for using GPT models, specifically `gpt-4-all` and `gpt-3.5-t
 
 ## Features
 
-- Supports GPT models: `gpt-4-all` and `gpt-3.5-turbo`
-- Simple and easy-to-use API client
-- **No** support for streaming responses
-- **No** support for function calling
+- ✅ Supports GPT models: `gpt-4-all` and `gpt-3.5-turbo`
+- ✅ Simple and easy-to-use API client
+- ❌ **No** support for streaming responses
+- ❌ **No** support for function calling
 
 ## Example Usage
 
