@@ -1,5 +1,5 @@
 
-# Free ChatGPT API
+# 🆓 Free ChatGPT API
 
 This is a free API for using GPT models, specifically `gpt-4-all` and `gpt-3.5-turbo`. This API provides simple access to GPT models, though it does **not** support streaming responses or function calling.
 
@@ -24,7 +24,7 @@ client = OpenAI(
 
 chat_completion = client.chat.completions.create(
     messages=[{"role": "user", "content": "Are you gpt-3?"}],
-    model="gpt-4-all",  # or use "gpt-3.5-turbo"
+    model="gpt-3.5-turbo" # or use "gpt-4-all"
 )
 
 print(chat_completion.choices[0].message.content)
@@ -54,3 +54,14 @@ pip install openai
 ## Usage
 
 You can use the API to interact with GPT models by sending messages and receiving responses as shown in the example above.
+
+## Support
+
+If you find this project helpful, please give it a ⭐ on GitHub to show your support!
+
+For updates and more content, join my Telegram channel: [https://t.me/H4xCh](https://t.me/H4xCh)
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=H4xC0d3/FreeGPT&type=Date)](https://star-history.com/#H4xC0d3/FreeGPT&Date)
