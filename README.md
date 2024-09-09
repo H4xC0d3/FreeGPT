@@ -1,5 +1,5 @@
 
-# Free GPT API
+# Free ChatGPT API
 
 This is a free API for using GPT models, specifically `gpt-4-all` and `gpt-3.5-turbo`. This API provides simple access to GPT models, though it does **not** support streaming responses or function calling.
 
