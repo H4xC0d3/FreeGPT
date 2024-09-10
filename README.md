@@ -10,6 +10,14 @@ This is a free API for using GPT models, specifically `gpt-4-all` and `gpt-3.5-t
 - ❌ **No** support for streaming responses
 - ❌ **No** support for function calling
 
+## Installation
+
+To use this API, you need the OpenAI Python package:
+
+```bash
+pip install openai
+```
+
 ## Example Usage
 
 Here’s a basic example of how to use the API with Python:
@@ -42,14 +50,6 @@ print(chat_completion.choices[0].message.content)
 ### Important Notes
 - **No streaming support**: This API does not support streaming responses, so you will receive the entire response at once.
 - **No function calling support**: Function calling is not implemented in this API.
-
-## Installation
-
-To use this API, you need the OpenAI Python package:
-
-```bash
-pip install openai
-```
 
 ## Usage
 
