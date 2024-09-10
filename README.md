@@ -1,14 +1,8 @@
+## 🆓 Free OpenAI Key
 
-# 🆓 Free ChatGPT API
+Api Base URL: `"http://gpt.catway.org/v1"`
 
-This is a free API for using GPT models, specifically `gpt-4-all` and `gpt-3.5-turbo`. This API provides simple access to GPT models, though it does **not** support streaming responses or function calling.
-
-## Features
-
-- ✅ Supports GPT models: `gpt-4-all` and `gpt-3.5-turbo`
-- ✅ Simple and easy-to-use API client
-- ❌ **No** support for streaming responses
-- ❌ **No** support for function calling
+Api Key: Currently, this API does not require an API key, so you can set it as `"."`.
 
 ## Installation
 
@@ -38,18 +32,17 @@ chat_completion = client.chat.completions.create(
 print(chat_completion.choices[0].message.content)
 ```
 
-### Parameters
+## Features
 
-- `base_url`: The base URL for accessing the API (`http://gpt.catway.org/v1`)
-- `api_key`: Currently, this API does not require an API key, so you can set it as `"."`.
+- ✅ Supports GPT models: `gpt-4-all` and `gpt-3.5-turbo`
+- ✅ Simple and easy-to-use API client
+- ❌ **No** support for streaming responses
+- ❌ **No** support for function calling
+
 
 ### Supported Models
 - `gpt-4-all`
 - `gpt-3.5-turbo`
-
-### Important Notes
-- **No streaming support**: This API does not support streaming responses, so you will receive the entire response at once.
-- **No function calling support**: Function calling is not implemented in this API.
 
 ## Usage
 
