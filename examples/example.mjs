@@ -1,3 +1,4 @@
+// npm install openai
 import OpenAI from "openai";
 const openai = new OpenAI({
     baseURL: "http://gpt.catway.org/v1",  // Specify the base URL for your API
