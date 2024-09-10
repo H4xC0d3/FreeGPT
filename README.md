@@ -2,7 +2,7 @@
 
 Api Base URL: `"http://gpt.catway.org/v1"`
 
-Api Key: Currently, this API does not require an API key, so you can set it as `"."`.
+Api Key: Currently, this API does not require an API key, so you can set it as `"."`
 
 ## Installation
 
