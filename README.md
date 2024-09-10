@@ -39,7 +39,6 @@ print(chat_completion.choices[0].message.content)
 - ❌ **No** support for streaming responses
 - ❌ **No** support for function calling
 
-
 ### Supported Models
 - `gpt-4-all`
 - `gpt-3.5-turbo`
