@@ -53,6 +53,7 @@ If you find this project helpful, please give it a ⭐ on GitHub to show your su
 
 For updates and more content, join my Telegram channel: [https://t.me/H4xCh](https://t.me/H4xCh)
 
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=H4xC0d3/FreeGPT&type=Date)](https://star-history.com/#H4xC0d3/FreeGPT&Date)
