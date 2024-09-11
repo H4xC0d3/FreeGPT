@@ -1,8 +1,8 @@
 ## 🆓 Free OpenAI Key
 
-Api Base URL: `"http://gpt.catway.org/v1"`
+Api Base URL: `http://gpt.catway.org/v1`
 
-Api Key: Currently, this API does not require an API key, so you can set it as `"."`
+Api Key: `sk-r4khWXD9FY4NkC7GO4jWfTSuB3G3cdS0yyBXKnO9F7Pjm4YC`
 
 ## Installation
 
@@ -21,7 +21,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="http://gpt.catway.org/v1",
-    api_key="."  # You can leave the API key empty for now
+    api_key="sk-r4khWXD9FY4NkC7GO4jWfTSuB3G3cdS0yyBXKnO9F7Pjm4YC"
 )
 
 chat_completion = client.chat.completions.create(
